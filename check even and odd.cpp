@@ -2,15 +2,15 @@
 using namespace std;
 
 int main() {
-    int number;
+    int num;
 
     cout << "Input a number: ";
-    cin >> number;
+    cin >> num;
 
-    if (number % 2 == 0) {
-        cout << "The number " << number << " is Even." << endl;
+    if (num % 2 == 0) {
+        cout << "The number " << num << " is Even." << endl;
     } else {
-        cout << "The number " << number << " is Odd. " << endl;
+        cout << "The number " << num << " is Odd. " << endl;
     }
 
     return 0;
